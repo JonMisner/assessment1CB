@@ -1,6 +1,6 @@
 
   # Exercise 1  
-![Screenshot](screenshot.png) 
+![Screenshot](./screenShot.png) 
 ***
 
   ## Table of Contents
