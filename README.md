@@ -1,6 +1,6 @@
 
   # Exercise 1  
- ![Screenshot](screenshot.png) 
+![Screenshot](screenshot.png) 
 ***
 
   ## Table of Contents
