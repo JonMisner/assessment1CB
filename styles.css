@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: #a6c2ce;
+  background-color: whitesmoke;
+  
 }
 
 row::after {
@@ -12,21 +13,25 @@ row::after {
   display: table;
 }
 
-h4,
-h1 {
+h4 {
   color: whitesmoke;
+  line-height: 6px;
 }
 
 header {
   margin: 0px 0px -35px 10px;
   font-size: 35px;
+  color: #6b799e;
+  padding-left: 10px;
 }
-h3 {
-  background-color: whitesmoke;
 
+h3 {
+  background-color: #a6c2ce;
+  color: whitesmoke;
   margin-left: 10px;
   margin-right: 10px;
-  padding-left: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
 }
 
 .col-6 {
@@ -36,25 +41,24 @@ h3 {
 }
 
 .col-info {
-  width: 38%;
-  max-width: 200px;
-  min-width: 150px;
-  height: 250px;
+  width:150px;
+  height: 200px;
   float: left;
   padding-left: 7px;
   background-color: #6b799e;
   margin: 0;
+  border-radius: 0 10px 10px 0;
 }
+
 .col-pic {
-  height: 250px;
-  width: 62%;
-  max-width: 200px;
-  min-width: 150px;
+  height: 200px;
+  width:150px;
   float: left;
+  
 }
 
 .col-main {
-  width: 30%;
+  width: 25%;
   float: left;
   padding: 10px;
 }
@@ -63,4 +67,10 @@ h3 {
   width: 100%;
   height: 100%;
   background-color: #ebc57c;
+  border-radius: 10px 0 0 10px;
+}
+
+p {
+  line-height: 12px;
+  font-size: 20px;
 }
